@@ -1,0 +1,42 @@
+body {
+  background-image: url('/images/asanoha-400px.png');
+}
+
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+.fa {
+  color: green; 
+  padding-right: 20px;
+}
+footer {
+  background-color: black;
+  line-height: 14px;
+  width: 100%;
+  margin-top: 50%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer p { 
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+}
+form {
+  text-align: center;
+  margin-top: 50px;
+}
+.urlInput {
+  width: 400px;
+}
+.primaryLink {
+  text-align: center;
+}
+.primaryHash {
+  text-align: center;
+}

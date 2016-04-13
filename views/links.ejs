@@ -1,0 +1,13 @@
+<% include partials/header.ejs %>
+
+    <h1>Links</h1>
+
+    <div class="well">
+      <% myLinks.forEach(function(link) { %>
+      <a href="<%= hashid.encode(link.id) %>"><h3><%= link.url %></h3></a>
+      <p><%= link.count %></p>
+      <% }); %>
+    </div>
+    
+
+<% include partials/footer.ejs %>

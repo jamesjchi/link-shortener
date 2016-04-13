@@ -1,0 +1,19 @@
+<% include partials/header.ejs %>
+
+  <div class='container'>
+    
+      <h1>Link Shorty</h1>
+    
+      <h4>The easiest way to create short links to long URLs!</h4>
+    
+    <form method='POST' action='/links' class='form-inline'>
+      <div class="form-group">
+        <input type='url' name='url' class='form-control urlInput' placeholder="Enter URL Here">
+        <input type='submit' class="btn btn-success">
+      </div>
+      
+    </form>
+    
+  </div>
+
+<% include partials/footer.ejs %>

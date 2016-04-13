@@ -1,0 +1,15 @@
+<% include partials/header.ejs %>
+
+  <h1>Here's Your Shortened Link</h1>
+
+  <div class="well primaryLink">
+    <h3>Original Long Link:</h3>
+    <a href="<%= myLink.url %>"><h3><%= myLink.url %></h3></a>
+  </div>
+  <div class="well primaryHash">
+    <h3>New Short Link:</h3>
+    <a href="/<%= hashid.encode(myLink.id) %>"><h3>https://linkshorty.herokuapp.com/<%= myLink.hash %></h3></a>
+    <p><%= myLink.count %></p>
+  </div>
+  
+<% include partials/footer.ejs %>
