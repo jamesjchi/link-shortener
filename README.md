@@ -1,7 +1,7 @@
 # Shorty Link
 A link shortener app that takes a long url and converts it into a short url with a hash to use as a link.
 
-[Link to my app](https://shorty-link.herokuapp.com/)
+[Link to My App: Shorty Link](https://shorty-link.herokuapp.com/)
 
 # Technologies Used
 * HTML5/CSS3
@@ -13,6 +13,6 @@ A link shortener app that takes a long url and converts it into a short url with
 * Hashids
 * Heroku
 
-# How it works
+# How it Works
 1. Input a long URL that you want to shorten
 2. Output will list out your original link and create a new short one for you to use
