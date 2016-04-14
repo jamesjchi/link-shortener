@@ -33,7 +33,7 @@ app.get('/:hash', function(req, res) {
       id: hashid.decode(req.params.hash)
     }
   }).then(function(link) {
-    link.count ++;
+    link.count++;
     link.save().then(function(link) {
       res.redirect(link.url);
     });
@@ -55,8 +55,4 @@ app.post('/links', function(req, res) {
   
 });
 
-
-
-
-
-app.listen(3000);
+app.listen(process.env.PORT || 3000);

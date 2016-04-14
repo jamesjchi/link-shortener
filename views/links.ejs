@@ -1,8 +1,8 @@
 <% include partials/header.ejs %>
 
-    <h1>Links</h1>
+    <h1>All Links</h1>
 
-    <div class="well">
+    <div class="indexWell well">
       <% myLinks.forEach(function(link) { %>
       <a href="<%= hashid.encode(link.id) %>"><h3><%= link.url %></h3></a>
       <p><%= link.count %></p>
