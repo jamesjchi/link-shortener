@@ -34,6 +34,6 @@ form {
 .indexWell {
   text-align: center;
 }
-.urlInput {
-  width: 400px;
+#urlInput {
+  width: 500px;
 }
